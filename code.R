@@ -11,7 +11,7 @@ library(tidyverse)     # Data manipulation
 library(ggcorrplot)    # Correlation heatmap
 library(HDInterval)    # HDI intervals
 
-# Set path where 
+# Set path
 setwd("/Bayesian Analysis/project")
 
 # Uncomment the following line to download data automatically in 'data' folder:
