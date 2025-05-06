@@ -1,6 +1,7 @@
 # ------------------------------------------------------------------------------
 # 1. Setup & Data Loading
 # ------------------------------------------------------------------------------
+# install.packages("epiextractr", repos = c("https://economic.r-universe.dev", "https://cloud.r-project.org"))
 library(epiextractr)   # For CPS data
 library(VIM)           # Hot deck imputation
 library(psych)         # Descriptive statistics
@@ -14,6 +15,7 @@ library(HDInterval)    # HDI intervals
 setwd("/Bayesian Analysis/project")
 
 # Uncomment the following line to download data automatically in 'data' folder:
+# You do not have to do it if you already have file 'epi_cpsorg_2025_1.feather'
 # download_cps("org", "data")
 
 cps_data <- load_org(
